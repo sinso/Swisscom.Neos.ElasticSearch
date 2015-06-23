@@ -1,0 +1,19 @@
+{
+	"name" : "swisscom/neos-elasticsearch",
+	"type" : "typo3-flow-package",
+	"description" : "Our configuration for elasticsearch",
+	"license" : "GPL-3.0+",
+	"require" : {
+		"typo3/neos" : "*",
+		"typo3/neos-nodetypes" : "*",
+		"flowpack/elasticsearch" : "1.0.0",
+		"typo3/typo3cr-search" : "dev-master",
+		"flowpack/elasticsearch-contentrepositoryadaptor" : "2.0.0",
+		"flowpack/searchplugin" : "dev-master#8c832c4cb6d58e7171813a85c47a970ab2b4a5cf"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"Swisscom\\Neos\\ElasticSearch" : "Classes"
+		}
+	}
+}
