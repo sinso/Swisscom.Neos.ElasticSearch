@@ -6,10 +6,10 @@
 	"require" : {
 		"typo3/neos" : "*",
 		"typo3/neos-nodetypes" : "*",
-		"flowpack/elasticsearch" : "1.0.0",
-		"typo3/typo3cr-search" : "dev-master",
-		"flowpack/elasticsearch-contentrepositoryadaptor" : "2.0.0",
-		"flowpack/searchplugin" : "dev-master#8c832c4cb6d58e7171813a85c47a970ab2b4a5cf"
+		"flowpack/elasticsearch" : "1.1.2",
+		"typo3/typo3cr-search" : "2.1.0",
+		"flowpack/elasticsearch-contentrepositoryadaptor" : "2.0.1",
+		"flowpack/searchplugin" : "2.0.0"
 	},
 	"autoload" : {
 		"psr-0" : {
